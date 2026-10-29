@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquire About Our Services | Campus Connect</title>
+<meta name="description" content="Enquire about peer tutoring, the writing centre, past papers, volunteering or sponsoring a campus event and get an instant cost and availability response.">
+<meta name="keywords" content="student enquiry, book peer tutoring, volunteer tutor, sponsor campus event, writing centre booking">
+<meta name="author" content="Noxolo Pamella Lubhelwana">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1d4ed8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://cdnjs.cloudflare.com; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co; base-uri 'self'; frame-ancestors 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://lubhelwanapamela.github.io/Wede-part2/enquiry.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Campus Connect">
+<meta property="og:title" content="Enquire About Our Services | Campus Connect">
+<meta property="og:description" content="Enquire about peer tutoring, the writing centre, past papers, volunteering or sponsoring a campus event and get an instant cost and availability response.">
+<meta property="og:url" content="https://lubhelwanapamela.github.io/Wede-part2/enquiry.html">
+<meta property="og:image" content="https://lubhelwanapamela.github.io/Wede-part2/images/campus-library-study-space.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/campus-library-study-space.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="nav-overlay"></div>
+<header class="site-header">
+<div class="container nav-inner">
+<a href="index.html" class="brand" aria-label="Campus Connect home"><span class="brand-mark" aria-hidden="true">CC</span><span class="brand-name">Campus Connect</span></a>
+<nav class="primary-nav" aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="resources.html">Resources</a></li><li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html#form" class="btn btn-primary nav-cta">Get Support</a></li>
+</ul>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</div>
+</header>
+<main id="main" class="page-fade">
+<section class="page-hero"><div class="blob blob-1" style="width:220px;height:220px;top:0;right:-40px;"></div><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Enquiry</div><span class="eyebrow">Ask us anything</span><h1>Enquire about our services.</h1><p class="lead">Choose a service, tell us when you need it and we will show you the cost and availability straight away.</p></div></section>
+<section class="section-tight"><div class="container" style="max-width:820px"><div class="form-card reveal in">
+<form id="enquiry-form" novalidate action="enquiry.html" method="post" aria-label="Service enquiry form">
+<div class="form-grid">
+<div class="field"><label for="name">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="name" name="name" data-rule="name" required  aria-describedby="name-err" autocomplete="name"><span class="error-msg" id="name-err" role="alert"></span></div>
+<div class="field"><label for="email">Email address <span class="req" aria-hidden="true">*</span></label><input type="email" id="email" name="email" data-rule="email" required  aria-describedby="email-err" autocomplete="email"><span class="error-msg" id="email-err" role="alert"></span></div>
+<div class="field"><label for="phone">Phone number <span class="hint">(optional)</span></label><input type="tel" id="phone" name="phone" data-rule="phone"  aria-describedby="phone-err phone-hint" autocomplete="tel"><span class="hint" id="phone-hint">South African format, e.g. 082 123 4567</span><span class="error-msg" id="phone-err" role="alert"></span></div>
+<div class="field"><label for="studentNo">Student number <span class="hint">(optional)</span></label><input type="text" id="studentNo" name="studentNo" data-rule="studentNo" inputmode="numeric" aria-describedby="studentNo-err studentNo-hint"><span class="hint" id="studentNo-hint">6 to 10 digits</span><span class="error-msg" id="studentNo-err" role="alert"></span></div>
+<div class="field full"><label for="service">Service <span class="req" aria-hidden="true">*</span></label>
+<select id="service" name="service" data-rule="select" required aria-describedby="service-err"><option value="">Choose a service...</option><option value="tutoring">Peer tutoring</option><option value="writing">Writing Centre feedback</option><option value="papers">Past papers &amp; notes access</option><option value="volunteer">Volunteer as a tutor</option><option value="sponsor">Sponsor a campus event</option></select><span class="error-msg" id="service-err" role="alert"></span></div>
+<div class="field"><label for="sessions">Number of sessions / events <span class="req" aria-hidden="true">*</span></label><input type="number" id="sessions" name="sessions" data-rule="sessions" required min="1" max="10" value="1" aria-describedby="sessions-err sessions-hint"><span class="hint" id="sessions-hint">1 to 10</span><span class="error-msg" id="sessions-err" role="alert"></span></div>
+<div class="field"><label for="date">Preferred date <span class="req" aria-hidden="true">*</span></label><input type="date" id="date" name="date" data-rule="date" required  aria-describedby="date-err"><span class="error-msg" id="date-err" role="alert"></span></div>
+<div class="field full"><label for="message">Anything else we should know?</label><textarea id="message" name="message" rows="3" maxlength="500" placeholder="Module name, topic, questions..."></textarea></div>
+<div class="field full check-row"><label><input type="checkbox" id="consent" name="consent" data-rule="consent" required aria-describedby="consent-err"> I agree to be contacted about this enquiry. <span class="req" aria-hidden="true">*</span></label><span class="error-msg" id="consent-err" role="alert"></span></div>
+</div>
+<div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<button type="submit" class="btn btn-primary" style="margin-top:14px">Get my response</button>
+</form>
+<div id="enquiry-result" aria-live="polite"></div>
+</div></div></section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true">CC</span><span class="brand-name" style="color:#fff;">Campus Connect</span></a>
+<p>A student-run hub that brings academic support, resources, events and help services into one simple place.</p>
+<div class="social-row">
+<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+<a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on X"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+</div></div>
+<div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="resources.html">Resources</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h4>Support</h4><ul><li><a href="resources.html#academic">Academic Help</a></li><li><a href="resources.html#wellbeing">Wellbeing</a></li><li><a href="resources.html#events">Events</a></li><li><a href="contact.html">Report an Issue</a></li></ul></div>
+<div><h4>Get in touch</h4><ul><li>lubhelwanapamela@gmail.com</li><li>Student Centre, Level 2</li><li>Mon-Fri &middot; 08:00-17:00</li></ul></div>
+</div>
+<div class="footer-bottom"><span>&copy; 2026 Campus Connect. All rights reserved.</span><span>Made for students, with students.</span></div>
+</div>
+</footer>
+<button class="to-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/data.js" defer></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>

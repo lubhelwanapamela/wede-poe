@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lubhelwanapamela.github.io/Wede-part2/sitemap.xml
