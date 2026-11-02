@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Resources &amp; Campus Events | Campus Connect</title>
+<meta name="description" content="Search tutoring, study materials, campus events and wellbeing services. Filter by category and sort by date or title.">
+<meta name="keywords" content="student resources, peer tutoring, past papers, campus events, counselling, NSFAS, bursaries, study help">
+<meta name="author" content="Noxolo Pamella Lubhelwana">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1d4ed8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://cdnjs.cloudflare.com; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co; base-uri 'self'; frame-ancestors 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://lubhelwanapamela.github.io/Wede-part2/resources.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Campus Connect">
+<meta property="og:title" content="Student Resources &amp; Campus Events | Campus Connect">
+<meta property="og:description" content="Search tutoring, study materials, campus events and wellbeing services. Filter by category and sort by date or title.">
+<meta property="og:url" content="https://lubhelwanapamela.github.io/Wede-part2/resources.html">
+<meta property="og:image" content="https://lubhelwanapamela.github.io/Wede-part2/images/campus-library-study-space.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/campus-library-study-space.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="nav-overlay"></div>
+<header class="site-header">
+<div class="container nav-inner">
+<a href="index.html" class="brand" aria-label="Campus Connect home"><span class="brand-mark" aria-hidden="true">CC</span><span class="brand-name">Campus Connect</span></a>
+<nav class="primary-nav" aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="resources.html" aria-current="page">Resources</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html#form" class="btn btn-primary nav-cta">Get Support</a></li>
+</ul>
+</nav>
+<button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</div>
+</header>
+<main id="main" class="page-fade">
+<section class="page-hero"><div class="blob blob-1" style="width:220px;height:220px;top:0;right:-40px;"></div><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Resources</div><span class="eyebrow">Everything in one place</span><h1>Academic support, events and wellbeing, organised for you.</h1><p class="lead">Search or filter to find tutoring, study materials, upcoming events and support services without hunting through multiple sites.</p></div></section>
+<section class="section-tight" id="academic"><div class="container">
+<div class="toolbar">
+<div class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input type="search" id="resource-search" placeholder="Search e.g. exam, tutor, careers" aria-label="Search resources and events" autocomplete="off"></div>
+<select id="resource-sort" aria-label="Sort results"><option value="date">Sort by date</option><option value="title">Sort by title (A-Z)</option></select>
+</div>
+<div class="chips" role="group" aria-label="Filter by category" id="events">
+<button type="button" class="chip active" data-cat="all" aria-pressed="true">All</button>
+<button type="button" class="chip" data-cat="academic" aria-pressed="false">Academic</button>
+<button type="button" class="chip" data-cat="study" aria-pressed="false">Study materials</button>
+<button type="button" class="chip" data-cat="events" aria-pressed="false">Events</button>
+<button type="button" class="chip" data-cat="wellbeing" aria-pressed="false">Wellbeing</button>
+</div>
+<p class="result-count" id="result-count" aria-live="polite"></p>
+<div class="grid-3" id="resource-list"></div>
+<div style="text-align:center;margin-top:26px"><button type="button" class="btn btn-ghost" id="load-more">Load more</button></div>
+</div></section>
+<section class="section-tight" id="wellbeing" style="background:#fff"><div class="container split">
+<div class="reveal"><span class="eyebrow">Wellbeing &amp; support</span><h2>Help finding the right service, quickly</h2>
+<p style="margin-top:14px">Whether it is academic stress, finances or just needing someone to talk to, Campus Connect points you to the right service without you having to explain yourself twice.</p>
+<div class="info-list mt-lg">
+<div class="info-item"><div class="ii-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><div><h3>Counselling &amp; Wellness</h3><p>Confidential sessions with the campus counselling team.</p></div></div>
+<div class="info-item"><div class="ii-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><div><h3>Financial Aid Pointers</h3><p>Where to start when you need advice on fees, funding or bursaries.</p></div></div>
+<div class="info-item"><div class="ii-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div><h3>Peer Support Groups</h3><p>Student-led groups for shared experiences, from first-year nerves to exam stress.</p></div></div>
+</div></div>
+<div class="reveal"><div class="card"><h2 style="font-size:1.3rem;margin-bottom:12px">Frequently asked</h2>
+<div class="faq-item open"><button class="faq-q" type="button"><span>Is everything on Campus Connect free?</span><span class="plus" aria-hidden="true">+</span></button><div class="faq-a"><p>Yes. Every resource, event listing and support contact is free to browse and use.</p></div></div>
+<div class="faq-item"><button class="faq-q" type="button"><span>Do I need to sign up?</span><span class="plus" aria-hidden="true">+</span></button><div class="faq-a"><p>No account is required to browse. The forms only ask for what is needed to follow up with you.</p></div></div>
+<div class="faq-item"><button class="faq-q" type="button"><span>How often is content updated?</span><span class="plus" aria-hidden="true">+</span></button><div class="faq-a"><p>Resources and events are reviewed weekly so links stay current and listings stay relevant.</p></div></div>
+<div class="faq-item"><button class="faq-q" type="button"><span>Can I suggest a resource?</span><span class="plus" aria-hidden="true">+</span></button><div class="faq-a"><p>Absolutely. Use the contact form and choose "Suggest a resource" as the message type.</p></div></div>
+</div></div></div></section>
+<div class="modal" id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+<div class="modal-box"><button class="modal-close" type="button" aria-label="Close details">&times;</button>
+<span class="badge-soft" id="modal-cat"></span><h2 id="modal-title" style="font-size:1.5rem;margin:8px 0"></h2><p id="modal-desc"></p><p class="item-meta" id="modal-meta"></p>
+<a href="enquiry.html" class="btn btn-primary btn-sm">Enquire about this</a></div></div>
+<section class="section-tight"><div class="container"><div class="cta-banner reveal"><h2>Can't find what you're looking for?</h2><p>Send us a message and we will point you to the right person or resource.</p><div class="cta-actions"><a href="contact.html" class="btn btn-light">Contact Us</a></div></div></div></section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true">CC</span><span class="brand-name" style="color:#fff;">Campus Connect</span></a>
+<p>A student-run hub that brings academic support, resources, events and help services into one simple place.</p>
+<div class="social-row">
+<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+<a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on X"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Campus Connect on Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+</div></div>
+<div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="resources.html">Resources</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h4>Support</h4><ul><li><a href="resources.html#academic">Academic Help</a></li><li><a href="resources.html#wellbeing">Wellbeing</a></li><li><a href="resources.html#events">Events</a></li><li><a href="contact.html">Report an Issue</a></li></ul></div>
+<div><h4>Get in touch</h4><ul><li>lubhelwanapamela@gmail.com</li><li>Student Centre, Level 2</li><li>Mon-Fri &middot; 08:00-17:00</li></ul></div>
+</div>
+<div class="footer-bottom"><span>&copy; 2026 Campus Connect. All rights reserved.</span><span>Made for students, with students.</span></div>
+</div>
+</footer>
+<button class="to-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/data.js" defer></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
